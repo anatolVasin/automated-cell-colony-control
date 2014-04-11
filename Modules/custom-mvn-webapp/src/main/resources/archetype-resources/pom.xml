@@ -1,19 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.bio.cellscontrol</groupId>
-    <artifactId>automated-cell-colony-control</artifactId>
-    <version>1.0</version>
-    <packaging>pom</packaging>
-    <name>Automated Cell Colony Control parent pom</name>
-
-    <scm>
-        <connection>git@github.com:anatolVasin/automated-cell-colony-control.git</connection>
-    </scm>
-
+    <groupId>$com.mvn.webapp</groupId>
+    <artifactId>$custom-mvn-webapp</artifactId>
+    <version>$1.0-SNAPSHOT</version>
     <dependencies>
 
         <!-- common -->
@@ -39,21 +29,21 @@
             <artifactId>slf4j-api</artifactId>
             <version>1.7.6</version>
         </dependency>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-            <version>1.7.6</version>
-        </dependency>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>1.2.17</version>
-        </dependency>
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>apache-log4j-extras</artifactId>
-            <version>1.1</version>
-        </dependency>
+	<dependency>
+		<groupId>org.slf4j</groupId>
+		<artifactId>slf4j-log4j12</artifactId>
+		<version>1.7.6</version>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>log4j</artifactId>
+		<version>1.2.17</version>
+	</dependency>
+	<dependency>
+		<groupId>log4j</groupId>
+		<artifactId>apache-log4j-extras</artifactId>
+		<version>1.1</version>
+	</dependency>
 
         <!-- testing -->
 
@@ -90,7 +80,4 @@
         </plugins>
     </build>
 
-    <modules>
-        <module>cellModel</module>
-    </modules>
 </project>
